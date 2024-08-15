@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xReverseLabs/.github/main/profile/xLabsBanner.png" alt="xReverseLabs Logo" width="200">
+  <img src="https://raw.githubusercontent.com/xReverseLabs/.github/main/profile/xLabsBanner.png" alt="xReverseLabs Logo">
 </p>
 
 <h1 align="center">Welcome to xReverseLabs</h1>
