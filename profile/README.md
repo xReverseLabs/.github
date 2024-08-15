@@ -23,7 +23,7 @@
 
 xReverseLabs is dedicated to enhancing the capabilities of cybersecurity professionals by providing state-of-the-art tools for OSINT (Open Source Intelligence) and domain reconnaissance. We focus on simplifying the complexities of information gathering, enabling experts to identify vulnerabilities and secure digital landscapes effectively.
 
-## 🛠️ Our Tools
+## 🛠️ Our Featured Tools
 
 ### [SubRecon](https://github.com/xReverseLabs/SubRecon)
 A fast and reliable subdomain scanner built with Go. SubRecon is designed to uncover hidden subdomains and facilitate thorough domain reconnaissance, crucial for any penetration test.
