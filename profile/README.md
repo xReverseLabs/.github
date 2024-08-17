@@ -80,7 +80,7 @@ We take security very seriously. If you find any security vulnerabilities, pleas
 
 ## 🎉 Acknowledgments
 
-- **The xReverseLabs Community:** For continuous support, contributions, and inspiration.
+- **[The xReverseLabs Community](https://t.me/xReverseLabs):** For continuous support, contributions, and inspiration.
 
 ---
 
