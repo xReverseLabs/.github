@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xReverseLabs/.github/main/profile/Banner.png" alt="xReverseLabs Banner">
+  <img src="https://raw.githubusercontent.com/xReverseLabs/.github/main/profile/Banner.png" height="150" alt="xReverseLabs Banner">
 </p>
 
 <h1 align="center">xReverseLabs</h1>
