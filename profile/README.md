@@ -1,89 +1,144 @@
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xReverseLabs/.github/main/profile/Banner.png" alt="xReverseLabs Logo">
+  <img src="https://raw.githubusercontent.com/xReverseLabs/.github/main/profile/Banner.png" alt="xReverseLabs Banner">
 </p>
 
-<h1 align="center">Welcome to xReverseLabs</h1>
+<h1 align="center">xReverseLabs</h1>
 
 <p align="center">
   <b>Innovative OSINT Solutions for Cybersecurity Experts</b><br>
-  Empowering penetration testers and security researchers with cutting-edge tools and intelligence for comprehensive domain reconnaissance.
+  Focused reconnaissance tooling for penetration testers and security researchers —
+  built to be fast, scriptable, and API-first.
 </p>
 
 <p align="center">
-  <a href="https://xreverselabs.my.id"><img alt="Website" src="https://img.shields.io/badge/Website-xReverseLabs-blue?style=flat-square"></a>
-  <a href="https://github.com/xReverseLabs"><img alt="GitHub followers" src="https://img.shields.io/github/followers/xReverseLabs?style=flat-square"></a>
-  <a href="https://linkedin.com/in/bayujsantoso"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Bayu%20Jumhari%20Cahyono-blue?style=flat-square"></a>
-  <a href="https://instagram.com/bayujsantoso_"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-%40bayujsantoso__-red?style=flat-square"></a>
+  <a href="https://xreverselabs.org"><img alt="Website" src="https://img.shields.io/badge/Website-xreverselabs.org-0891b2?style=flat-square"></a>
+  <a href="https://github.com/xReverseLabs"><img alt="GitHub followers" src="https://img.shields.io/github/followers/xReverseLabs?style=flat-square&color=39ff88"></a>
+  <a href="https://t.me/xReverseLabs"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-Join%20Group-26A5E4?style=flat-square&logo=telegram&logoColor=white"></a>
+  <a href="https://xreverselabs.docs.apiary.io"><img alt="API Docs" src="https://img.shields.io/badge/API-Documentation-informational?style=flat-square"></a>
 </p>
 
 ---
 
 ## 🚀 Our Mission
 
-xReverseLabs is dedicated to enhancing the capabilities of cybersecurity professionals by providing state-of-the-art tools for OSINT (Open Source Intelligence) and domain reconnaissance. We focus on simplifying the complexities of information gathering, enabling experts to identify vulnerabilities and secure digital landscapes effectively.
+xReverseLabs builds focused OSINT (Open Source Intelligence) tooling for security
+professionals. We simplify the complexity of information gathering and domain
+reconnaissance, so researchers can spend less time stitching tools together and
+more time doing actual analysis.
 
-## 🛠️ Our Featured Tools
+## 🧰 Core Toolkit
 
-### [SubRecon](https://github.com/xReverseLabs/SubRecon)
-A fast and reliable subdomain scanner built with Go. SubRecon is designed to uncover hidden subdomains and facilitate thorough domain reconnaissance, crucial for any penetration test.
+Available at [xreverselabs.org](https://xreverselabs.org) with free and paid tiers,
+plus full API access:
 
-- **Key Features:**
-  - High-speed scanning with concurrent threads.
-  - Minimal resource usage.
-  - Detailed output for easy integration with other tools.
+| Tool | Description |
+|---|---|
+| **Reverse IP / Reverse IPv6** | Discover domains hosted on a given IP address |
+| **Subdomain Scanner** | Enumerate subdomains for a target domain |
+| **WHOIS Database** | Historical and current WHOIS record lookups |
+| **Phone Number Lookup** | OSINT lookup on phone numbers |
+| **Proxy Scraper** | Collect and validate live proxies |
+| **Domain by Date** | Find domains registered within a given date range |
 
-### [xReverse API](https://xreverselabs.my.id)
-An API service tailored for OSINT tasks, providing essential data such as subdomains, reverse IP lookups, and more. The API is designed for seamless integration into your security workflows.
+## 🛠️ Open Source Projects
 
-- **Key Features:**
-  - Comprehensive data for domain analysis.
-  - Easy-to-use endpoints with extensive documentation.
-  - Scalable for large-scale operations.
+### [ReconSuite](https://github.com/xReverseLabs/ReconSuite)
+A fast, concurrent reconnaissance toolkit written in Go — built for reliable,
+large-scale domain and subdomain enumeration during penetration tests.
 
-## 🌐 Why Choose xReverseLabs?
+- High-speed scanning with concurrent workers
+- Minimal resource footprint
+- Structured output for easy pipelining into other tools
 
-- **Performance:** Our tools are optimized for speed and efficiency, ensuring that you get the data you need without delays.
-- **Reliability:** We prioritize accuracy and reliability in all our products, helping you avoid false positives and ensuring dependable results.
-- **Community-Driven:** We believe in the power of open source. Our projects are constantly evolving, with contributions from a global community of security professionals.
-- **Continuous Improvement:** We are committed to regular updates and the addition of new features, staying ahead in the fast-paced world of cybersecurity.
+### [xDorker](https://github.com/xReverseLabs/xDorker)
+An automated Google/Bing dorking tool for OSINT reconnaissance, built to run
+large batches of dork queries without getting stuck on captchas.
+
+- Automated dork query execution across search engines
+- Captcha-resilient by design
+- Useful for surfacing exposed files, panels, and misconfigurations at scale
+
+### [DiscoveryDomainV2](https://github.com/xReverseLabs/DiscoveryDomainV2)
+The domain discovery engine behind [Discover](https://discover.xreverselabs.org) —
+finds related and adjacent domains for a given target.
+
+- Expands a single target into a wider domain footprint
+- Built for feeding downstream recon tools
+- Second-generation rewrite focused on speed and accuracy
+
+### [xReverse API](https://xreverselabs.org)
+The API layer behind our OSINT toolkit — reverse IP, subdomain discovery, WHOIS, and
+more, available as a single, well-documented REST API for integration into your own
+workflows and tooling.
+
+- One API for the full OSINT toolkit
+- [Full documentation](https://xreverselabs.docs.apiary.io)
+- Scales from single lookups to bulk operations
+
+## 🌐 Our Ecosystem
+
+Beyond the core toolkit, the xReverseLabs team maintains a small set of related products:
+
+| Product | Description |
+|---|---|
+| **[Opendata](https://opendata.xreverselabs.org)** | Daily-updated domain list for bulk OSINT research |
+| **[Discover](https://discover.xreverselabs.org)** | Domain discovery engine |
+| **[DataSentry](https://datasentry.xreverselabs.org)** | Check whether an email has appeared in known data breaches |
+| **[xLabsCloud](https://xlabscloud.com)** | Dedicated infrastructure hosting for researchers |
+| **[xDorker](https://xdorker.xreverselabs.org)** | Google Dorking tools proxyless |
+| **[Discovery Domain V2](https://discover.xreverselabs.org)** | Domain Discovery Engine, Auto Grab Fresh Domains |
+
+## 💡 Why xReverseLabs?
+
+- **Performance** — tools are built for speed and low overhead, so you get results without delay.
+- **Reliability** — we prioritize accurate, dependable output over noisy false positives.
+- **Community-driven** — our open-source projects evolve with contributions from security researchers worldwide.
+- **API-first** — everything we build is designed to be scripted, not just clicked through.
 
 ## 🧑‍💻 Getting Started
 
-To get started with our tools, follow the instructions below:
+1. Create a free account at [xreverselabs.org/clientarea/register](https://xreverselabs.org/clientarea/register).
+2. Explore the free toolkit, or check the [pricing page](https://xreverselabs.org/pricing) for higher limits and API access.
+3. Read the [API documentation](https://xreverselabs.docs.apiary.io) to integrate the toolkit into your own workflow.
+4. For our open-source tools, check each repository's README for setup instructions.
 
 ## 💬 Connect with Us
 
-We love to hear from the community! Whether you have a question, a feature request, or a bug report, feel free to reach out.
+- **Telegram Group:** [t.me/xReverseLabs](https://t.me/xReverseLabs)
+- **Telegram Channel:** [t.me/xReverseLabs_Ch](https://t.me/xReverseLabs_Ch)
+- **GitHub:** [github.com/xReverseLabs](https://github.com/xReverseLabs)
 
-- **Instagram:** [@bayujsantoso_](https://instagram.com/bayujsantoso_)
-- **LinkedIn:** [Bayu Jumhari Cahyono](https://linkedin.com/in/bayujsantoso)
-- **Twitter:** [@youez_](https://x.com/youez_)
-- **Telegram:** [@xxyz4](https://t.me/xxyz4)
+## 🤝 Contributing
 
-## 🤝 Contribute to Our Projects
+We welcome contributions to our open-source projects — bug fixes, documentation
+improvements, and new features are all appreciated.
 
-We encourage contributions! Whether you're fixing a bug, improving documentation, or building new features, your input is valuable.
-
-- **Fork the repository** and create your branch (`git checkout -b feature/AmazingFeature`)
-- **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
-- **Push to the branch** (`git push origin feature/AmazingFeature`)
-- **Open a pull request**
+1. Fork the repository and create your branch: `git checkout -b feature/AmazingFeature`
+2. Commit your changes: `git commit -m 'Add some AmazingFeature'`
+3. Push to the branch: `git push origin feature/AmazingFeature`
+4. Open a pull request
 
 ## 📜 Community
 
-Our community is a vibrant hub where security engineers and developers come together to collaborate, exchange knowledge, and refine their approach to managing vulnerability workflows. As a participant, you’ll unlock a vast array of resources—ranging from tutorials and best practices to the collective wisdom of seasoned industry professionals—all designed to elevate your skills and enhance your ability to tackle security challenges effectively.
+Our community brings together security researchers and developers to share
+techniques, tooling, and practical experience with OSINT and reconnaissance
+workflows. Join us on Telegram to ask questions, share findings, or just follow
+along with what we're building.
 
 ## 🛡️ Security
 
-We take security very seriously. If you find any security vulnerabilities, please report them privately via [our security policy](https://github.com/xReverseLabs/security/policy).
+We take security seriously. If you discover a vulnerability in any of our tools
+or services, please report it privately rather than opening a public issue —
+reach out via [Telegram](https://t.me/xReverseLabs) or open a private security
+advisory on the relevant repository. We aim to acknowledge reports promptly and
+credit responsible disclosures.
 
 ## 🎉 Acknowledgments
 
-- **[The xReverseLabs Community](https://t.me/xReverseLabs):** For continuous support, contributions, and inspiration.
+- The [xReverseLabs community](https://t.me/xReverseLabs) — for continuous feedback, contributions, and support.
 
 ---
 
 <p align="center">
-  Developed with ❤️ by the <a href="https://github.com/xReverseLabs">xReverseLabs Team</a>
+  Built with care by the <a href="https://github.com/xReverseLabs">xReverseLabs Team</a>
 </p>
